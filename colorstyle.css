@@ -1,9 +1,11 @@
 body {
+	padding: 0;
+	box-sizing: border-box;
 	background-color: #232323;
 	margin: 0;
 	font-family: "Montserrat","avenir";
-}
 
+}
 .square {
 	width: 30%;
 	background: purple;
@@ -15,15 +17,9 @@ body {
     -webkit-transition:background 0.6s;
     -moz-transition:background 0.6s;
 }
-
 #container {
 	margin: 20px auto;
 	max-width: 600px;
-}
-p{
-	color: white;
-	text-align: center;
-	font-style: italic;
 }
 
 h1 {
@@ -34,7 +30,7 @@ h1 {
 	background: #394854;
 	margin: 0;
 	line-height: 1.1;
-	padding: 20px 0;
+	padding: 10px 0;
 }
 
 #stripe{
